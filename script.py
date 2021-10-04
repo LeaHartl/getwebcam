@@ -9,7 +9,7 @@ def exists(path):
     return r.status_code == requests.codes.ok
 
 
-# enter date and time of first and last images to download. must be in format: YYYY/mm/dd/HHMM
+# enter date and time of first and last images to download. use format: YYYY/mm/dd/HHMM
 first = '2021/10/02/1200'
 last = '2021/10/02/1230'
 
